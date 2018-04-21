@@ -1222,7 +1222,7 @@ plt.xlabel("Latitude")
 plt.grid(True)
 
 # Save the figure
-plt.savefig("TemperatureInWorldCities.png")
+plt.savefig("HumidityInWorldCities.png")
 
 # Show plot
 plt.show()
@@ -1244,7 +1244,7 @@ plt.xlabel("Latitude")
 plt.grid(True)
 
 # Save the figure
-plt.savefig("TemperatureInWorldCities.png")
+plt.savefig("CloudinessInWorldCities.png")
 
 # Show plot
 plt.show()
@@ -1261,12 +1261,12 @@ plt.scatter(weather_data["lat"], weather_data["wind"], marker="o")
 
 # Incorporate the other graph properties
 plt.title("Temperature in World Cities")
-plt.ylabel("Humidity")
+plt.ylabel("Wind")
 plt.xlabel("Latitude")
 plt.grid(True)
 
 # Save the figure
-plt.savefig("TemperatureInWorldCities.png")
+plt.savefig("WindInWorldCities.png")
 
 # Show plot
 plt.show()
